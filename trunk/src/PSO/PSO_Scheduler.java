@@ -120,7 +120,7 @@ public class PSO_Scheduler {
         mapping = PSOSchedularInstance.run();
 
         try {
-            String filePath = "D:\\IdeaProjects\\cloudsim-task-scheduling\\cloudlets.txt";
+            String filePath = "cloudlets.txt";
             int num_user = 1;   // number of grid users
             Calendar calendar = Calendar.getInstance();
             boolean trace_flag = false;  // mean trace events

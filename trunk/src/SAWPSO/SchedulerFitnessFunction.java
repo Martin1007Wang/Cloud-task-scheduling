@@ -1,7 +1,6 @@
 package SAWPSO;
 
 import net.sourceforge.jswarm_pso.FitnessFunction;
-import sun.misc.VM;
 import utils.Constants;
 import utils.GenerateMatrices;
 

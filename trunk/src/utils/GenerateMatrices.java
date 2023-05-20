@@ -11,7 +11,7 @@ public class GenerateMatrices {
     private static double[][] commMatrix, execMatrix;//传输转移消耗矩阵，执行时间矩阵
     private File commFile = new File("CommunicationTimeMatrix.txt");
     private File execFile = new File("ExecutionTimeMatrix.txt");
-    private String filePath = "D:\\github\\cloudsim-package\\modules\\cloudsim-examples\\src\\main\\java\\org\\cloudbus\\cloudsim\\examples\\cloudlets.txt";
+    private String filePath = "cloudlets.txt";
 
     public GenerateMatrices() {
         commMatrix = new double[Constants.NO_OF_TASKS][Constants.NO_OF_VMS];
